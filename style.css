@@ -1,0 +1,123 @@
+.nube {
+    --bs-blue: #FFBDB0;
+    --bs-bg-opacity: 1;
+    background: linear-gradient(135deg, #E3F2FD, #FCE4EC);  
+    box-shadow: #ffffff00;
+}
+
+.About {
+  display: flex;
+  flex-direction: row;
+  padding: var(--pading);
+  align-items: center;   
+  gap: 30px;
+}
+
+.About-info {
+  flex: 1;               
+  text-align: center;    
+}
+
+.About-info h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1E3A8A;
+  margin: 0;
+}
+
+.About-info p {
+  font-size: 1.3rem;     
+  line-height: 1.8;       
+}
+
+.About img {
+  max-width: 400px;      
+  height: auto;
+}
+
+.botones-disney {
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.SectionCollapse {
+  text-align: center;
+}
+.SectionCollapse .card {
+  display: inline-block; 
+  text-align: left;
+}
+.btn-group .btn {
+  border-radius: 12px !important;
+  padding: 0,8px;
+  text-align: center;
+}
+
+.cartas{
+    display: flex;
+    padding: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1rem;
+    box-sizing: border-box;
+    padding: 40px 20px;
+    border-radius: 12px;
+}
+
+.caras{
+    margin-right: 1%;
+    margin-top: 2%;
+    width: 10vh;
+    height: 10%;
+    flex: 0 1 calc(20% - 1rem);
+    max-width: calc(20% - 1rem);
+    box-sizing: border-box;
+}
+
+.titulo-seccion {
+  text-align: center;
+  margin: 40px 0 20px 0;
+  border-radius: 12px;
+}
+
+.titulo-seccion h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1E3A8A;
+  margin: 0;
+}
+.titulo-seccion h1 {
+  font-size: 2.5rem !important;
+  font-weight: bold !important;
+  color: #1E3A8A !important;
+  margin: 0 !important;
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img-top {
+  height: 160px;
+  object-fit: cover;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+    background: linear-gradient(135deg, #E3F2FD, #FCE4EC);  
+  min-height: 100vh;
+}
